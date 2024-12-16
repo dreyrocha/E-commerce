@@ -1,0 +1,63 @@
+section .contato {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.text-contato, .icons-contato {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.contato .text-contato h3 {
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 45px;
+    margin-bottom: 20px;
+    
+}
+
+.contato .text-contato h3 span {
+    font-weight: 600;
+    display: block;
+    font-size: 40px;
+}
+
+.contato .text-contato p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contato .icons-contato a {
+    text-decoration: none;
+}
+
+.contato .icons-contato button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin: 20px;
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: ease-in-out 0.9s;
+}
+
+.contato .icons-contato button i {
+    font-size: 20px;
+}
+
+.contato .icons-contato button:hover {
+    background-color: black;
+    transform: scale(1.05);
+ 
+}
+
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover p {
+    color: white;
+}

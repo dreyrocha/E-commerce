@@ -1,0 +1,86 @@
+
+.buscar-box {
+    width: 50px;
+    height: 50px;
+ 
+    background-color: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 10px 0;
+    border: 2px solid black;
+
+}
+
+.buscar-box:hover {
+    transform: scale(1.1);
+    border-radius: 0 20px;
+}
+.buscar-box.ativar {
+    width: 350px;
+}
+.buscar-box .lupa-buscar,
+.buscar-box .btn-fechar {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #000000;
+}
+
+.buscar-box .btn-fechar {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: -10px;
+}
+
+.buscar-box .lupa-buscar {
+    font-size: 35px;
+}
+
+.buscar-box .input-buscar {
+    position: absolute;
+    left: 80px;
+    width: calc(100% -120px);
+    height: 100%;
+    line-height: 50px;
+   
+}
+
+.buscar-box .input-buscar input {
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: #000000;
+    background-color: transparent;
+    
+}
+
+
+header input::placeholder {
+    color:rgba(0, 0, 0, 0.641);
+}
+
+.submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #444; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .submit:hover {
+    background-color: #555; 
+  }
+
+.boasvindas .interface2  h6 {
+    margin: 100px;
+  }
+
+  

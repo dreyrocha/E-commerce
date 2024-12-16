@@ -1,0 +1,74 @@
+@media screen and (max-width: 1300px) {
+    header .buscar-box {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header .endNav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    /* responsivo main */
+    .hero-site .txt-hero h1 {
+        font-size: 2.8em;
+        line-height: 45px;
+        font-weight: 200;
+      }
+      
+      
+      .hero-site .txt-hero p {
+        font-size: 20px;
+      
+      
+      }
+
+      .hero-site .txt-hero p span {
+        display: inline;
+      }
+      
+      /* responvivo resto */
+    
+    .vantagens .itens-container {
+        flex-direction: column;
+    }
+    
+    .vantagens .itens-container .img-itens img {
+        width: 100%;
+    }
+    
+    .vantagens .itens-container .img-itens img {
+        margin-bottom: 30px;
+    }
+    
+    
+    .vantagens .itens-container h3{
+        font-size: 2em;
+        line-height: 40px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+    
+    .vantagens .itens-container h1 {
+        color: red;
+        font-size: 50px;
+    }
+    
+    
+    .vantagens .itens-container button  {
+        margin-bottom: 40px;
+    }
+    
+    .vantagens .itens-container button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .vantagens .itens-container button:hover {
+        background-color: rgba(0, 0, 0, 0.756);
+        border: none;
+    }
+    
+}

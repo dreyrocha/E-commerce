@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e3e3e3;
+  
+}
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/* estilo do header */
+
+header {
+  width: 100%;
+  padding: 40px 0;
+
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+
+header .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header .logo a img {
+  width: 150px;
+  transition: ease-in-out 0.9s;
+
+}
+
+header.rolar {
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.393);
+}
+
+header .logo a img:hover {
+  transform: scale(1.12);
+}
+header .endNav nav ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.endNav nav ul li {
+  display: inline-block;
+  margin: 0 40px;
+  text-transform: lowercase;
+  transition: 0.3s;
+}
+
+.endNav nav ul li:hover {
+  transform: scale(1.2);
+}
+
+.endNav .loginNAV:hover {
+  background-color: black;
+  color: #e3e3e3;
+}
+
+header .loginNAV {
+  width: 140px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: black;
+}
+
+
+/* estilização da page do carrinho */
+.carrinhoCar {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.carrinhoCar a {
+  color: white;
+}
+
+.carrinhoCar a:hover {
+  color: white
+}
